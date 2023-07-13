@@ -1,0 +1,137 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "userName": "naem",
+      "id": 2
+    },
+    {
+      "userName": "post",
+      "id": 3
+    },
+    {
+      "userName": "name",
+      "id": 4
+    },
+    {
+      "userName": "name",
+      "id": 5
+    },
+    {
+      "userName": "nameuser",
+      "id": 6
+    },
+    {
+      "userName": "name",
+      "id": 7
+    },
+    {
+      "userName": "name",
+      "id": 8
+    },
+    {
+      "userName": "naem",
+      "id": 9
+    },
+    {
+      "userName": "Name",
+      "id": 10
+    },
+    {
+      "userName": "Name",
+      "id": 11
+    },
+    {
+      "userName": "Name",
+      "id": 12
+    },
+    {
+      "userName": "Name",
+      "id": 13
+    },
+    {
+      "userName": "Name",
+      "id": 14
+    },
+    {
+      "userName": "Name",
+      "id": 15
+    },
+    {
+      "userName": "Name",
+      "id": 16
+    },
+    {
+      "userName": "Name",
+      "id": 17
+    },
+    {
+      "userName": "name",
+      "id": 18
+    },
+    {
+      "userName": [
+        "naem",
+        "naem",
+        "naem",
+        "naem",
+        "naem"
+      ],
+      "id": 19
+    },
+    {
+      "userName": [
+        "firtsname",
+        "firtsname",
+        "firtsname",
+        "firtsname",
+        "firtsname"
+      ],
+      "id": 20
+    },
+    {
+      "userName": "name",
+      "id": 21
+    },
+    {
+      "userName": "name",
+      "id": 22
+    },
+    {
+      "userName": "name",
+      "id": 23
+    },
+    {
+      "userName": "name",
+      "id": 24
+    },
+    {
+      "userName": "name",
+      "id": 25
+    },
+    {
+      "user": {
+        "Fullname": "name",
+        "Age": "age",
+        "EmailID": "emailid",
+        "Mobile": "mobilenumber",
+        "Fees": "fees"
+      },
+      "id": 26
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

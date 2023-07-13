@@ -1,0 +1,83 @@
+<nav className="navbar bg-body-tertiary navbar-danger bg-light">
+        <div className="container-fluid col-7 .col-md-2">
+          <a className="navbar-brand mx-3" href="#">
+            {/* <img src={Logo} width="140" height="60" /> */}
+            INSPIRE YOU
+          </a>
+        </div>
+        <i class="bi bi-house-fill mx-5">Home  </i>
+      </nav>
+
+      <form action="post">
+        <div className='container'>
+          <form action='' method='post'>
+            <div className="form-group ">
+              <label for="FName">First Name</label>
+              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your First Name" />
+            </div>
+
+            <div className="form-group my-3">
+              <label for="LName">Last Name</label>
+              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your Last Name" />
+            </div>
+
+            <div className="form-group my-3">
+              <label for="DOB">Date of Birth</label>
+              <input type="date" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your Date of birth" />
+            </div>
+
+            <div className="form-group my-3">
+              <label for="MobileNumber">Mobile Number</label>
+              <input type="number" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your mobile number" />
+            </div>
+
+            <div className="form-group my-3">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your email" />
+            </div>
+
+            <div className="form-group my-3">
+              <label for="Address">Address</label>
+              <textarea type="address" className="form-control" required aria-describedby="emailHelp" rows="2" cols="2" placeholder='Enter your address'></textarea>
+            </div>
+
+            <div className="form-group my-3">
+              <label for="Tmarks">Tenth Mark</label>
+              <input type="number" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your 10th Mark (in percentage)" />
+            </div>
+
+            <div className="form-group my-3">
+              <label for="TwlMark">Twelfth Mark</label>
+              <input type="number" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your 12th Mark (in percentage)" />
+            </div>
+
+            <div className="form-group my-3">
+              <label for="CGPA">CGPA</label>
+              <input type="number" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your CGPA (in percentage)" />
+            </div>
+
+            <div className="form-group my-3">
+              <label for="Blood">Blood Group</label>
+              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your Blood Group" />
+
+            </div>
+
+            <div className="form-group my-3">
+              <label for="Traits">Personal Traits</label>
+              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="If you were school leader/speaker, Explain else N/A" />
+            </div>
+
+            <div className="form-group my-3">
+              <label for="anything">Something to Share</label>
+              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="Apart from these if you have something to share, type it down " />
+            </div>
+            <button type="submit" className="btn btn-primary"
+            >  Submit</button>
+          </form>
+        </div >
+      </form>
+
+
+
+
+

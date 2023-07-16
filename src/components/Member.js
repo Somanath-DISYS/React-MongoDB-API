@@ -23,7 +23,11 @@ export default function Member() {
         event.preventDefault()
         const post={user:memberData}
         try{
-            const result= await axios.post('http://localhost:3000/posts',post)
+            // const result= await axios.post('http://localhost:3000/posts',post)
+            // https://ap-south-1.aws.data.mongodb-api.com/app/data-bgydk/endpoint/crearte
+            const result= await axios.post('https://ap-south-1.aws.data.mongodb-api.com/app/home-tinlk/endpoint/HomeP',
+            // ,{headers: {'api-key': '7Pw1YxwdVuO5C63HStEQgdBSBds5Aa848f8iQ2u2xFt41VjHC1XL2JuOvBjuUtrM', 'Access-Control-Allow-Origin': '*'}}
+            )
             console.log(result.data);
         }
         catch(event){

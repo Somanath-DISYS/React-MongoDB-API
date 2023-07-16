@@ -1,83 +1,47 @@
-<nav className="navbar bg-body-tertiary navbar-danger bg-light">
-        <div className="container-fluid col-7 .col-md-2">
-          <a className="navbar-brand mx-3" href="#">
-            {/* <img src={Logo} width="140" height="60" /> */}
-            INSPIRE YOU
-          </a>
-        </div>
-        <i class="bi bi-house-fill mx-5">Home  </i>
-      </nav>
+to run this make . the json server and run that first and then run the react.
+see the output in json file running in the first host
 
-      <form action="post">
-        <div className='container'>
-          <form action='' method='post'>
-            <div className="form-group ">
-              <label for="FName">First Name</label>
-              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your First Name" />
-            </div>
+json commands are:
 
-            <div className="form-group my-3">
-              <label for="LName">Last Name</label>
-              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your Last Name" />
-            </div>
+npm i json-server
+npx json-server --watchdb.json --port 3001
+npx json-server  --watch db.json
 
-            <div className="form-group my-3">
-              <label for="DOB">Date of Birth</label>
-              <input type="date" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your Date of birth" />
-            </div>
+cd taskone
+npm run start
 
-            <div className="form-group my-3">
-              <label for="MobileNumber">Mobile Number</label>
-              <input type="number" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your mobile number" />
-            </div>
 
-            <div className="form-group my-3">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your email" />
-            </div>
-
-            <div className="form-group my-3">
-              <label for="Address">Address</label>
-              <textarea type="address" className="form-control" required aria-describedby="emailHelp" rows="2" cols="2" placeholder='Enter your address'></textarea>
-            </div>
-
-            <div className="form-group my-3">
-              <label for="Tmarks">Tenth Mark</label>
-              <input type="number" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your 10th Mark (in percentage)" />
-            </div>
-
-            <div className="form-group my-3">
-              <label for="TwlMark">Twelfth Mark</label>
-              <input type="number" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your 12th Mark (in percentage)" />
-            </div>
-
-            <div className="form-group my-3">
-              <label for="CGPA">CGPA</label>
-              <input type="number" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your CGPA (in percentage)" />
-            </div>
-
-            <div className="form-group my-3">
-              <label for="Blood">Blood Group</label>
-              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="Enter your Blood Group" />
-
-            </div>
-
-            <div className="form-group my-3">
-              <label for="Traits">Personal Traits</label>
-              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="If you were school leader/speaker, Explain else N/A" />
-            </div>
-
-            <div className="form-group my-3">
-              <label for="anything">Something to Share</label>
-              <input type="text" className="form-control" required aria-describedby="emailHelp" placeholder="Apart from these if you have something to share, type it down " />
-            </div>
-            <button type="submit" className="btn btn-primary"
-            >  Submit</button>
-          </form>
-        </div >
-      </form>
+now open the json port and change to port/name of json
 
 
 
+To create a table (or collection) and an endpoint in MongoDB Atlas, you'll need to follow these general steps:
 
+1. Set up a MongoDB Atlas account: If you haven't already, go to the MongoDB Atlas website (https://www.mongodb.com/cloud/atlas) and sign up for an account. Follow the instructions to create a new project and cluster.
 
+2. Connect to your MongoDB Atlas cluster: Once your cluster is set up, you'll need to establish a connection to it. This typically involves configuring network access settings and obtaining connection details such as the connection string.
+
+3. Choose a method to interact with MongoDB Atlas: MongoDB Atlas provides several options for interacting with your cluster, including the MongoDB Shell, programming languages, and RESTful API endpoints. For this guide, we'll focus on creating an endpoint using the RESTful API.
+
+4. Create a database and collection: In MongoDB, you don't explicitly create tables; instead, you create a database and collections within that database. You can create a database using the following steps:
+
+   a. Open the MongoDB Atlas dashboard and select your cluster.
+   b. Click on the "Collections" tab in the left sidebar.
+   c. Click the "Create Database" button.
+   d. Provide a name for your database and click "Create Database".
+
+   After creating the database, you can create a collection (similar to a table) within that database:
+
+   a. Click on the "Collections" tab.
+   b. In the "Collections" view, click the "Add My Own Data" button.
+   c. Provide a collection name and click "Create".
+
+5. Set up an API endpoint: To interact with your data in MongoDB Atlas, you can set up an API endpoint using the MongoDB Realm service. This allows you to expose your database and collection via HTTP endpoints.
+
+   a. In the MongoDB Atlas dashboard, select your project.
+   b. In the left sidebar, click on "Realm" under "Database & API Access".
+   c. Follow the instructions in MongoDB Realm to create an app and configure your API endpoint. This typically involves defining rules for authentication and access to your database.
+
+6. Test the API endpoint: Once your API endpoint is set up, you can test it using a tool like cURL or an API testing application. Make requests to the endpoint using appropriate HTTP methods (GET, POST, PUT, DELETE) to read, insert, update, or delete data in your collection.
+
+These steps should provide a general overview of how to create a table (collection) and an endpoint in MongoDB Atlas. The exact details may vary depending on the specific version of MongoDB Atlas and the tools you choose to use. Refer to the MongoDB Atlas documentation for more detailed instructions and examples.
